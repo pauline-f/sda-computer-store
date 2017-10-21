@@ -36,6 +36,9 @@ public class HardDisk {
         this.cost = cost;
     }
 
+    /**
+     *  print a summary for the hard disk
+     */
     public void printHardDisk() {
         System.out.println("Your hard disk: Manufacturer: " + manufacturer + " Speed: " + speed + " Cost: " + cost);
     }

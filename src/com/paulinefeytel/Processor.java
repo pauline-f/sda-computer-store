@@ -36,6 +36,9 @@ public class Processor {
         this.cost = cost;
     }
 
+    /**
+     *  print a summary for the processor
+     */
     public void printProcessor() {
         System.out.println("Your processor: Manufacturer: " + manufacturer + " clock speed: " + clockSpeed + " Cost: " + cost);
     }

@@ -38,7 +38,9 @@ public class Computer {
         return theDisplay.getCost() + theProcessor.getCost() + theHardDisk.getCost();
     }
 
-    // print a summary of the Computer components and calculate the total cost
+    /**
+     *  print a summary of the Computer components and calculate the total cost
+     */
     public void printComputerSummary() {
         System.out.println("Your computer:");
         theDisplay.printDisplay();

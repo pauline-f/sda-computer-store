@@ -36,6 +36,9 @@ public class Display {
         this.cost = newCost;
     }
 
+    /**
+     *  print a summary for the display
+     */
     public void printDisplay() {
         System.out.println("Your display: Manufacturer: " + manufacturer + " Size: " + size + " Cost: " + cost);
     }
